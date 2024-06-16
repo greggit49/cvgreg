@@ -1,0 +1,193 @@
+@font-face {
+    font-family: raleway-italic;
+    src: url('../font/Raleway-Italic-VariableFont_wght.woff');
+    src: url('../font/Raleway-Italic-VariableFont_wght.ttf') format('TRUETYPE');
+}
+@font-face {
+    font-family:lato-regular ;
+    src: url('../font/Lato-Regular.woff');
+    src: url('../font/Lato-Regular.ttf') format('truetype')
+}
+p {
+    font-family : "raleway-italic",serif;
+    padding: 10px;
+    color: white;
+    
+    
+    
+    
+    
+}
+h4{
+    font-family: "raleway-italic,serif";
+    padding: 10px;
+}
+
+
+h3:hover {
+    font-family : "lato-regular",serif;
+    color: red;
+    
+}
+li {
+    font-family : "raleway-italic",serif; 
+    padding: 10px;
+}
+address{
+    color: white;
+    
+}
+
+
+.info{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #782221;
+    color: white;
+    
+    
+}
+
+  header img{
+        width: 150px;
+        height: 150PX;
+        border-radius:50%;
+        border: 3px solid blueviolet;
+        box-shadow: 0px 0px 10px #777;
+        margin: 20px auto auto;
+        
+  }  
+
+
+.contact{
+    display:flex;
+    justify-content: space-between;
+    background-color:#2C1D27;
+    padding: 20px;
+    
+}
+.colonne_left{
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ background-color: #782221;
+color: white;
+width: 30%;
+border-right: hidden;
+padding-right: 25px;
+text-align: justify;
+text-indent: 30px;
+
+}
+.colonne_right{
+   display: flex;
+   flex-direction:column;
+   justify-content: right;
+   align-items:right;
+   width: 70%;
+   border-left: hidden;
+   margin-right: 10px;
+   padding-left: 25px;
+   padding-right: 10px;
+
+   
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #782221;
+    
+    
+    
+}
+footer img{
+
+    
+        height: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+}
+
+h3{
+    background-color: #DBC2A4;
+    color: black;
+    padding-left: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+    .colonne_right h3{
+        border-left: #782221 6px solid;  
+    }
+   
+    
+
+.surligne:hover{
+border-right: #782221 3px SOLID;
+}    
+        
+    
+
+
+#container{
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+main{
+    display: flex;
+border-right: inset;
+
+
+}
+body{
+border-right: solid;
+border-left: solid;
+border-block-end: solid;
+border-block-start: solid;
+margin: auto;
+padding: AUTO;
+}
+
+a:hover {
+    
+    color: red;
+    
+
+
+}
+.image-zoom :hover{
+    
+    
+    src: url(../img/photo\ greg.jpg);
+    cursor: zoom-in;
+
+}
+.social :hover{
+    opacity: 0.7;
+    cursor: pointer;
+    
+    
+    
+    
+}
+
+.insertion{
+    width: 8px;
+    height: 30px;
+    background-color: #782221;
+}
+
